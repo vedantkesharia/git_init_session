@@ -1,31 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Git Init</title>
-</head>
-<body>
-    <h1>Git Init</h1>
-    <div>
-        <label for="nameInput">Enter your name:</label>
-        <input type="text" id="nameInput" placeholder="Your Name">
-        <button onclick="displayName()">Display Name</button>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>GIT INIT</h1>
+      <h4>By DJ InIT.AI</h4>
     </div>
-    <div id="output">
+    <div class="container">
+      <div class="component">
+        <p class="name">Isha</p>
+      </div>
     </div>
-    <script>
-        function displayName() {
-            const nameInput = document.getElementById("nameInput");
-            const outputDiv = document.getElementById("output");
-            const name = nameInput.value;
-            if (name) {
-                outputDiv.innerHTML = `<strong>Your Name: ${name}</strong>`;
-            } else {
-                outputDiv.innerHTML = ""; 
-            }
-        }
-    </script>
-</body>
+  </body>
 </html>
